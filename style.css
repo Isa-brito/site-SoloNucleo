@@ -244,6 +244,9 @@ body {
 .numbers {
   position: absolute;
   bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
   background: var(--grafite);
   padding: 35px 0;
   border-top: 1px solid rgba(40, 255, 0, 0.15);
