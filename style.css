@@ -248,7 +248,7 @@ body {
   transform: translateX(-50%);
   width: 80%;
   max-width: 1150px;
-  z-index: 5;
+  z-index: 10;
 }
 
 .numbers-content {
@@ -274,7 +274,7 @@ body {
 .number-card h3 {
   font-family: "Oswald", sans-serif;
   color: var(--verde);
-  font-size: 12px;
+  font-size: 32px;
 }
 
 .number-card p {
