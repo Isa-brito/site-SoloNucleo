@@ -334,7 +334,6 @@ body {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -387,7 +386,7 @@ body {
   line-height: 1.7;
 }
 
-.iconServicos {
+.iconServicos img {
  color: #1fc300;
 
 }
