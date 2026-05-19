@@ -243,10 +243,10 @@ body {
 /* Indicadores */
 .numbers {
   position: absolute;
-  bottom: 35px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80%;
+  width: 78%;
   max-width: 1150px;
   z-index: 10;
 }
@@ -262,7 +262,7 @@ body {
 }
 
 .number-card {
-  padding: 35px 25px;
+  padding: 25px 20px;
   text-align: center;
   border-right: 1px solid rgba(255, 255, 255, 0.12);
 }
@@ -281,6 +281,11 @@ body {
   color: var(--texto);
   text-transform: uppercase;
   font-size: 13px;
+}
+
+.number-card img {
+  width: 42px;
+  height: 42px;
 }
 
 #sobre {
@@ -574,7 +579,9 @@ body {
   }
 
   .hero-content {
-    padding-top: 80px;
+    position: relative;
+    z-index: 2;
+    transform: translateY(-70px);
   }
 
   .hero p {
