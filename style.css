@@ -329,7 +329,7 @@ body {
 }
 
 .image-card{
-    width: 50%;
+    width: 800px;
     height: 200px; /* ajuste conforme o tamanho do seu about-box */
     border-radius: 20px;
     overflow: hidden;
