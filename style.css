@@ -26,6 +26,7 @@ body {
   font-family: "Inter", sans-serif;
   background-color: var(--preto);
   color: var(--branco);
+  overflow-x: hidden;
 }
 
 /* Container central para limitar largura do conteúdo */
@@ -114,13 +115,14 @@ body {
 
 /* Banner inicial */
 .hero {
-  min-height: 100vh;
+  height: 100vh;
   background-image: url("assets/banner.png");
   background-size: cover;
   background-position: center;
   position: relative;
   display: flex;
   align-items: center;
+  padding-top: 90px; /* altura do header */
 }
 
 /* Camada escura por cima da imagem para melhorar leitura */
@@ -172,7 +174,6 @@ body {
 .hero-content {
   position: relative;
   z-index: 2;
-  padding-top: 100px;
 }
 
 .hero-text {
