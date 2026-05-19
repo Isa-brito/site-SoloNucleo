@@ -363,6 +363,11 @@ body {
   line-height: 1.7;
 }
 
+.iconServicos {
+ color: #1fc300;
+
+}
+
 /* Diferenciais */
 .features-grid {
   display: grid;
