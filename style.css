@@ -137,7 +137,7 @@ body {
 
 /* Animações de entrada */
 .reveal {
-  opacity: 0;
+  opacity: 1;
   transform: translateY(40px);
   transition: all 0.8s ease;
 }
