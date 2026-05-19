@@ -16,13 +16,6 @@ navLinks.forEach((link) => {
   });
 });
 
-// Menu mobile
-const menuBtn = document.getElementById('menuBtn');
-const nav = document.getElementById('nav');
-
-menuBtn.addEventListener('click', () => {
-  nav.classList.toggle('nav-open');
-});
 
 // Scroll animation
 const observer = new IntersectionObserver((entries) => {
