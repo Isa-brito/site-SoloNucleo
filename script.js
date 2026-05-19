@@ -16,15 +16,21 @@ navLinks.forEach((link) => {
   });
 });
 
-// Revela seções ao rolar
-function revelarAoRolar() {
-  const elementos = document.querySelectorAll('.reveal');
-  const alturaJanela = window.innerHeight;
+// Menu mobile
+const menuBtn = document.getElementById('menuBtn');
+const nav = document.getElementById('nav');
 
-   elementos.forEach(el => {
-    const rect = el.getBoundingClientRect();
-    const topo = rect.top;
-    const fundo = rect.bottom;
-    const margem = 100;})
-   }
+menuBtn.addEventListener('click', () => {
+  nav.classList.toggle('nav-open');
+});
 
+// Scroll animation
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
