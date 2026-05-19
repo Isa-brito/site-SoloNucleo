@@ -248,7 +248,7 @@ body {
   transform: translateX(-50%);
   width: 80%;
   max-width: 1150px;
-  z-index: 10;
+  z-index: 5;
 }
 
 .numbers-content {
