@@ -243,11 +243,11 @@ body {
 /* Indicadores */
 .numbers {
   position: absolute;
-  bottom: -70px;
+  bottom: 35px;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
-  max-width: 1200px;
+  width: 80%;
+  max-width: 1150px;
   z-index: 10;
 }
 
