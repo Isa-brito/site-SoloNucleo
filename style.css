@@ -147,16 +147,6 @@ body {
   transform: translateY(0);
 }
 
-img {
-  position: left;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 5px solid #ff0055;
-}
-
-
-
 /* Conteúdo do banner */
 .hero-content {
   position: relative;
