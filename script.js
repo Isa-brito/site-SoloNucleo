@@ -25,4 +25,6 @@ function revelarAoRolar() {
     const rect = el.getBoundingClientRect();
     const topo = rect.top;
     const fundo = rect.bottom;
-    const margem = 100;
+    const margem = 100;})
+   }
+
