@@ -353,6 +353,7 @@ body {
 
 /* Serviços */
 .services-grid {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
