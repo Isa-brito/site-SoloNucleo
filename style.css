@@ -329,8 +329,8 @@ body {
 }
 
 .image-card {
-    width: 450px;
-    height: 400px; /* ajuste conforme o tamanho do about-box */
+    width: 350px;
+    height: 300px; /* ajuste conforme o tamanho do about-box */
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
@@ -575,7 +575,7 @@ body {
   .btn-secondary {
     text-align: center;
   }
-  
+
   .about-box,
   .services-grid,
   .features-grid,
