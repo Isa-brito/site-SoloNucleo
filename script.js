@@ -15,3 +15,14 @@ navLinks.forEach((link) => {
     nav.classList.remove("active");
   });
 });
+
+// Revela seções ao rolar
+function revelarAoRolar() {
+  const elementos = document.querySelectorAll('.reveal');
+  const alturaJanela = window.innerHeight;
+
+   elementos.forEach(el => {
+    const rect = el.getBoundingClientRect();
+    const topo = rect.top;
+    const fundo = rect.bottom;
+    const margem = 100;
