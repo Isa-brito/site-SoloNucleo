@@ -330,7 +330,7 @@ body {
 
 .image-card {
     width: 450px;
-    height: 200px; /* ajuste conforme o tamanho do about-box */
+    height: 20px; /* ajuste conforme o tamanho do about-box */
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
