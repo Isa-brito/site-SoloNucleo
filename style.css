@@ -172,18 +172,10 @@ body {
 }
 
 /* Conteúdo do banner */
-.hero {
-  height: 100vh;
-  padding-top: 90px;
-  align-items: flex-start;
-}
-
 
 .hero-content {
   position: relative;
   z-index: 2;
-  padding-top: 90px;
-  transform: none;
 }
 
 .hero-text {
