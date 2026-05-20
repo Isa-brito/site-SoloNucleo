@@ -239,8 +239,7 @@ body {
 /* Indicadores */
 .numbers {
   position: absolute;
-  bottom: 40px;
-  left: 50%;
+  bottom: 60px;
   transform: translateX(-50%);
   width: 75%;
   max-width: 1150px;
@@ -278,10 +277,6 @@ body {
   font-size: 13px;
 }
 
-.number-card img {
-  width: 42px;
-  height: 42px;
-}
 
 #sobre {
   padding-top: 140px;
