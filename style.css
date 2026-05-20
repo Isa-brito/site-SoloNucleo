@@ -122,7 +122,8 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 90px; /* altura do header */
+  padding-top: 90px;
+  padding-bottom: 110px;
 }
 
 /* Camada escura por cima da imagem para melhorar leitura */
@@ -199,9 +200,11 @@ body {
 }
 
 .hero h1 {
-  font-size: clamp(38px, 5vw, 68px);
-  line-height: 1;
-  margin: 0 0 25px;
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(42px, 6vw, 78px);
+  line-height: 1.05;
+  text-transform: uppercase;
+  margin: 20px 0;
 }
 
 .hero h1 span {
@@ -244,10 +247,10 @@ body {
 /* Indicadores */
 .numbers {
   position: absolute;
-  bottom: 35px;
+  bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
-  width: 78%;
+  width: 82%;
   max-width: 1150px;
   z-index: 10;
 }
@@ -255,15 +258,16 @@ body {
 .numbers-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background: #050505;
-  border-radius: 18px;
+  background: rgba(5, 5, 5, 0.92);
+  border-radius: 8px;
   overflow: hidden;
-  border: 1px solid rgba(40, 255, 0, 0.15);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.06);
 }
 
 .number-card {
-  padding: 22px 18px;
+  padding: 18px 20px;
+  text-align: center;
+  border-right: 1px solid rgba(255,255,255,0.12);
 }
 
 .number-card:last-child {
