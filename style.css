@@ -26,7 +26,7 @@ html {
 .reveal-left,
 .reveal-up {
   opacity: 0;
-  transition: 0.8s ease;
+  transition: 2s ease;
 }
 
 .reveal-left {
@@ -53,6 +53,10 @@ html {
 
 .delay-3 {
   transition-delay: 0.45s;
+}
+
+.delay-4 {
+  transition-delay: 0.6s;
 }
 
 body {
@@ -191,20 +195,32 @@ body {
   font-size: 15px;
 }
 
-.hero h1 {
+.hero h2 {
   font-family: "Oswald", sans-serif;
-  font-size: clamp(42px, 6vw, 78px);
-  line-height: 1.05;
+  font-size: clamp(42px, 6vw, 60px);
   text-transform: uppercase;
-  margin: 20px 0;
+  margin: 2px 0;
 }
 
-.hero h1 span {
+.hero h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(48px, 6vw, 67px);
+  text-transform: uppercase;
+  margin: 1px 0;
   color: var(--verde);
+  line-height: 1.0;
+}
+
+.hero h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(42px, 6vw, 53px);
+  text-transform: uppercase;
 }
 
 .hero p {
-  max-width: 580px;
+  margin: 20px 0;
+  max-width: 450px;
+  font-size: 18px;
 }
 
 .hero-buttons {
