@@ -560,7 +560,7 @@ body {
 }
 
 /* Responsividade para celular */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .header-content {
     height: 75px;
   }
