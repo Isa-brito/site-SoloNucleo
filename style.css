@@ -148,7 +148,7 @@ body {
 
 /* Banner inicial */
 .hero {
-  min-height: 100vh;
+  min-height: 81vh;
   background-image: url("assets/banner.png");
   background-size: cover;
   background-position: center;
@@ -241,8 +241,8 @@ body {
 
 /* Indicadores */
 .numbers {
-    background: var(--grafite);
-  padding: 35px 0;
+  background: var(--grafite);
+  padding: 10px 0;
   border-top: 1px solid rgba(40, 255, 0, 0.15);
   border-bottom: 1px solid rgba(40, 255, 0, 0.15);
 }
@@ -265,7 +265,7 @@ body {
 .number-card h3 {
   font-family: "Oswald", sans-serif;
   color: var(--verde);
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .number-card p {
