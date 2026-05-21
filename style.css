@@ -319,7 +319,6 @@ body {
   grid-template-columns: 1.3fr 0.7fr;
   gap: 50px;
   align-items: center;
-  margin-top: -120px;
 }
 
 .about-text p,
