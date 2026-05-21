@@ -569,7 +569,7 @@ body {
 /* Responsividade para celular */
 @media (max-width: 768px) {
   .header-content {
-    height: 75px;
+    height: 60px;
   }
 
   .logo {
@@ -577,7 +577,7 @@ body {
   }
 
   .hero {
-    min-height: 90vh;
+    min-height: 80vh;
   }
 
   .hero-content {
@@ -598,6 +598,12 @@ body {
   .btn-secondary {
     text-align: center;
   }
+
+  .image-card {
+    width: 100%;
+    height: auto;
+  }
+
 
   .about-box,
   .services-grid,
@@ -620,7 +626,7 @@ body {
 
   .whatsapp-float {
     right: 15px;
-    bottom: 15px;
-    padding: 14px 18px;
+    bottom: 35px;
+    padding: 14px 15px;
   }
 }
