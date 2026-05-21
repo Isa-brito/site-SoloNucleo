@@ -413,7 +413,8 @@ body {
 
 }
 
-/* Diferenciais */
+
+
 .features-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -577,7 +578,7 @@ body {
   }
 
   .hero {
-    min-height: 80vh;
+    min-height: 100vh;
   }
 
   .hero-content {
@@ -603,7 +604,6 @@ body {
     width: 100%;
     height: auto;
   }
-
 
   .about-box,
   .services-grid,
