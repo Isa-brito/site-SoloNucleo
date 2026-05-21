@@ -454,7 +454,23 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.work-image {
+.work-image1 {
+  height: 220px;
+  background-image: url("assets/obra1.jpeg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.85);
+}
+
+.work-image2 {
+  height: 220px;
+  background-image: url("assets/banner.png");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.85);
+}
+
+.work-image3 {
   height: 220px;
   background-image: url("assets/banner.png");
   background-size: cover;
