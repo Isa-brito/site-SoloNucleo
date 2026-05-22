@@ -1,3 +1,4 @@
+
 /* Reset básico para remover espaçamentos padrões do navegador */
 * {
   margin: 0;
@@ -443,8 +444,9 @@ body {
 /* Obras */
 .works-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 385px);
   gap: 25px;
+  justify-content: center;
 }
 
 .work-card {
@@ -452,30 +454,31 @@ body {
   border-radius: 10px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
+  width: 385px;
+  min-height: 350px;
+}
+
+.work-image1, 
+.work-image2, 
+.work-image3 {
+  width: 385px;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.85);
 }
 
 .work-image1 {
-  height: 220px;
   background-image: url("assets/obra1.jpeg");
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.85);
 }
 
 .work-image2 {
-  height: 220px;
   background-image: url("assets/obra2.jpeg");
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.85);
 }
 
 .work-image3 {
-  height: 220px;
   background-image: url("assets/obra3.jpeg");
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.85);
 }
 
 .work-card h3 {
