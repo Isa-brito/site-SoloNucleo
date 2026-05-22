@@ -23,6 +23,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/*Barra de progresso no topo da página*/
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  background: var(--verde);
+  z-index: 9999;
+}
+
 /* Animações de entrada */
 .reveal-left,
 .reveal-up {
