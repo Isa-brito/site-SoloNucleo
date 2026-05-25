@@ -133,6 +133,8 @@ body {
 .btn-primary,
 .btn-secondary {
   display: inline-block;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
