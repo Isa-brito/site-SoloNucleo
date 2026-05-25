@@ -248,6 +248,7 @@ body {
   color: var(--preto);
   padding: 16px 28px;
   font-weight: 700;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
