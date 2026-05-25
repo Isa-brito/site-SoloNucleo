@@ -16,6 +16,48 @@ navLinks.forEach((link) => {
   });
 });
 
+// Carrosel de imagens
+const swiper = new Swiper(".obrasSwiper", {
+
+  loop: true,
+
+  spaceBetween: 30,
+
+  grabCursor: true,
+
+  autoplay: {
+    delay: 3500,
+    disableOnInteraction: false,
+  },
+
+  navigation: {
+    nextEl: ".obras-next",
+    prevEl: ".obras-prev",
+  },
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  breakpoints: {
+
+    0: {
+      slidesPerView: 1,
+    },
+
+    768: {
+      slidesPerView: 2,
+    },
+
+    1200: {
+      slidesPerView: 3,
+    }
+
+  }
+
+});
+
 
 // Scroll animation
 const revealElements = document.querySelectorAll(".reveal-left, .reveal-up");
