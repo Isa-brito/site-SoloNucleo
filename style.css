@@ -834,6 +834,28 @@ body {
     grid-template-columns: 1fr;
   }
 
+  .obras-carousel-area {
+    overflow: hidden;
+  }
+
+  .obras-prev {
+    left: 10px !important;
+  }
+
+  .obras-next {
+    right: 10px !important;
+  }
+
+  .obras-prev,
+  .obras-next {
+    color: #1FC300 !important;
+    transform: scale(0.75);
+  }
+
+  .swiper-pagination {
+    bottom: -25px !important;
+  }
+
   .footer-content {
     flex-direction: column;
     text-align: center;
@@ -841,7 +863,7 @@ body {
 
   .whatsapp-float {
     right: 15px;
-    bottom: 35px;
+    bottom: 20px;
     padding: 14px 15px;
   }
 }
