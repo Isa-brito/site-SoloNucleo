@@ -576,7 +576,7 @@ body {
   min-height: 90px;
   display: flex;
   align-items: flex-start;
-  color: white;
+  color: var(--verde);
   font-size: 1.6rem;
   line-height: 1.3;
 }
