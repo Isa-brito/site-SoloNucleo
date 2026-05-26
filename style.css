@@ -880,6 +880,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     right: 15px;
     bottom: 20px;
     padding: 14px 15px;
