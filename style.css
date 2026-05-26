@@ -898,6 +898,12 @@ body {
     transform: scale(0.65);
   }
 
+  .contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .swiper-pagination {
     bottom: -25px !important;
   }
