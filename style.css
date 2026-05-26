@@ -718,6 +718,11 @@ body {
   align-items: center;
 }
 
+.contatos{
+    display: flex;
+    align-items: center;
+  }
+
 /* Responsividade para tablet */
 @media (max-width: 992px) {
   .nav,
