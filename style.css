@@ -403,14 +403,13 @@ body {
 }
 
 .icons-no-sobre {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: start;
+  gap: 25px;
   margin-top: 25px;
   margin-bottom: 25px;
   text-align: center;
-  flex-wrap: nowrap;
 }
 
 .card1 {
@@ -714,9 +713,6 @@ body {
   font-weight: 700;
   z-index: 999;
   box-shadow: 0 0 20px rgba(40, 255, 0, 0.35);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Responsividade para tablet */
@@ -826,12 +822,41 @@ body {
     height: auto;
   }
 
-  .icons-no-sobre {
-    flex-direction: list-item;
-    align-items: center;
-    max-width: 3px;
+  .about {
+    grid-template-columns: 1fr;
   }
 
+  .icons-no-sobre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 14px;
+    margin: 30px 0;
+  }
+ 
+  .icons-no-sobre > div {
+    text-align: center;
+  }
+
+   .icons-no-sobre img {
+    width: 42px;
+    height: 42px;
+  }
+
+   .icons-no-sobre h3 {
+    font-size: 12px;
+    line-height: 1.15;
+    max-width: 130px;
+    margin: 8px auto 0;
+  }
+
+  .about-text p {
+    margin-bottom: 25px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    text-align: center;
+  }
 
   .about-box,
   .services-grid,
@@ -883,7 +908,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     right: 15px;
     bottom: 20px;
     padding: 14px 15px;
