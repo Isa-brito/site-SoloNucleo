@@ -714,6 +714,9 @@ body {
   font-weight: 700;
   z-index: 999;
   box-shadow: 0 0 20px rgba(40, 255, 0, 0.35);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Responsividade para tablet */
