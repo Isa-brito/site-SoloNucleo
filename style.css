@@ -682,6 +682,13 @@ body {
   color: var(--verde);
 }
 
+.contatos img {
+  margin-right: 8px;
+}
+
+.contatos a {
+  color: var(--branco);
+}
 
 /* Rodapé */
 .footer {
